@@ -42,6 +42,7 @@
     padding: 5px 20px 5px 20px;
     color: #fff;
     border-radius: 2px;
+		z-index: 999;
 }
 
 .registration{
@@ -144,10 +145,8 @@
 	width: 200px;
 }
 
-
 .new-user{
 	display: block;
-
 }
 
 #new-account{
@@ -158,10 +157,6 @@
 	margin-top:
 /*	margin-top: 150px;
 	margin-left: 50px; */
-}
-
-#rForm{
-	border: solid green;
 }
 
 .registration{
@@ -190,20 +185,35 @@
 	margin-top:14px;
 
 }
-#la.register-box{position: absolute; display:none; top: 19px; left: 254px;}
+#la.register-box{
+	position: absolute;
+	display:none;
+	top: 19px;
+	left: 259px;
+}
+#lal.registration{
+	position:absolute;
+	top: 19px;
+	left: 254px;
+}
+
+.login-box{
+	display:none;
+}
 
 .form-inputs.row{
 	margin: 0;
 
 }
 
-.register-box{}
-
-.inline-input{display:inline-block;}
-
+.inline-input{
+	display:inline-block;}
+}
 .form-signup{
 	margin-top: 10px;
 	margin-left:33px;
+/*	padding-right: 31px;
+    padding-left: 30px; */
 }
 
 .form-signup input{
@@ -224,4 +234,48 @@
 
 .finput{
 	margin-top:21px;
+}
+
+#loginForm{
+	background-color: #2595b7;
+	position:absolute;
+	left:417px;
+	top:-189px;
+}
+.butlog{
+	background-color: #cd5311;
+	color:#ffffff;
+	height: 37px;
+	border-radius: 5px;
+	width: 75px;
+	margin-left:83px;
+}
+
+#passswordInput{
+	width: 157px;
+}
+
+.logput{
+	border-radius: 5px;
+}
+
+#userName{
+	margin-top:20px;
+}
+.own-button{
+	margin-left:10px;
+	background-color:#9b9a9a;
+	color: #333333;
+	border-radius: 5px;
+	width:74px;
+	height:30px;
+}
+.own-account{
+	margin-top:50px;
+	text-align:  center;
+}
+.signup{
+	display: inline-block;
+	text-align: center;
+	margin-top:-10px;
 }
