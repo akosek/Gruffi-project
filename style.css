@@ -8,6 +8,7 @@
 
 .menu-container{
 	background-image: url("assets/menu-background.png");
+	height: 73px;
 }
 
 .main-box{
@@ -17,8 +18,9 @@
 .main-box .default-custom-menu{
 	margin-bottom: 5px;
 }
-
-
+#agora-logo{
+	padding-top:5px;
+}
 #menu-buttons #bregister.register-button{
     display: block;
     background-color: #e9e9e9;
@@ -29,6 +31,7 @@
     color: #544444;
     margin-right: 21px;
     border-radius: 2px;
+		z-index: 999;
 }
 
 #menu-buttons #blogin.login-button{
@@ -39,6 +42,11 @@
     padding: 5px 20px 5px 20px;
     color: #fff;
     border-radius: 2px;
+}
+
+.registration{
+	position:absolute;
+	background-color:#e9e9e9;
 }
 
 .owl-text{
@@ -94,18 +102,18 @@
 		color:#fafafa;
 }
 
-#lin-button{
-	margin-top:44px;
+#lin-button.libutton{
 	width:312px;
-	text-align: center;
-	margin-left:1px;
+	background-color: #00649b;
+	margin-top: 44px;
+	height: 37px;
 }
 
-#fac-button{
-	margin-top:15px;
+#fac-button.fabutton{
 	width: 312px;
-	text-align: center;
-	margin-left:1px;
+	background-color: #425d94;
+	margin-top: 15px;
+	height: 37px;
 }
 .btn .btn-primary{
 	width: 50%;
@@ -135,21 +143,85 @@
 	text-align: center;
 	width: 200px;
 }
-input{
-	border-radius: 6px;
-	width: 142px;
-}
+
 
 .new-user{
-	display: inline-block;
+	display: block;
 
 }
 
 #new-account{
 	background-color:#cf590a;
 	color:#ffffff;
-	width:150%;
+	width:312px;
 	height: 51px;
-	margin-top: 150px;
-	margin-left: 50px;
+	margin-top:
+/*	margin-top: 150px;
+	margin-left: 50px; */
+}
+
+#rForm{
+	border: solid green;
+}
+
+.registration{
+	border-radius: 6px;
+}
+.registration>input{
+	height: 36px;
+	margin-left:12px;
+	margin-bottom:12px;
+}
+
+#create{
+	width: 242px;
+	height: 37px;
+	background-color: #cf590a;
+	color:#ffffff;
+	margin-left:46px;
+	margin-bottom: 18px;
+}
+
+#bregister{
+	background-color: #e9e9e9;
+}
+.log-form{
+	width: 249px;
+	margin-top:14px;
+
+}
+#la.register-box{position: absolute; display:none; top: 19px; left: 254px;}
+
+.form-inputs.row{
+	margin: 0;
+
+}
+
+.register-box{}
+
+.inline-input{display:inline-block;}
+
+.form-signup{
+	margin-top: 10px;
+	margin-left:33px;
+}
+
+.form-signup input{
+	height:36px;
+	border-radius: 5px;
+}
+
+.last-name{margin-left:4px;}
+
+.form2{
+	margin-top: 10px;
+	width: 312px;
+}
+
+.or{
+	margin-top: 20px;
+}
+
+.finput{
+	margin-top:21px;
 }
