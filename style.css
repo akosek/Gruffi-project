@@ -12,14 +12,14 @@
     font-family: formFont;
     src: url("fonts/SourceSansPro-Regular.otf");
 }
-
-.container-fluid.main-container{
-	background-image:url("assets/background.png");
-	background-repeat: no-repeat;
-	height: 1500px;
-	padding:0px;
+body{
+  	background-image:url("assets/background.png");
 }
 
+.container-fluid.main-container{
+	background-repeat: no-repeat;
+	padding:0px;
+}
 
 .menu-container{
 	background-image: url("assets/menu-background.png");
@@ -33,6 +33,7 @@
 .main-box .default-custom-menu{
 	margin-bottom: 5px;
 }
+
 #agora-logo{
 	padding-top:5px;
 }
@@ -83,12 +84,16 @@
 	position: absolute;
   height:207px;
 	width:359px;
-	left:20%;
+	left:42%;
+  top:4px;
 }
 
 .owl-image{
 	display:inline-block;
 	position:relative;
+  margin-top:-14px;
+  margin-left:232px;
+  z-index:999;
 }
 .text{
 	font-size: 26px;
@@ -98,18 +103,15 @@
 }
 
 .owl-information{
-	position:absolute;
-  top: 29px;
-	left:30%;
 	z-index: 50;
+  margin-top:-44px;
 }
 
-.video .main-video
-{
+.video .main-video{
 		border: solid white;
 		border-width: 12px;
 		padding:0px;
-		margin-top:143px;
+		margin-top:-19px;
 }
 
 .down-box{
