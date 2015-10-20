@@ -1,11 +1,11 @@
 $(document).ready(function(){
     $("#bregister").click(function(){
-        $("#la").toggle();
+        $("#fRegi").toggle();
     });
 });
 
 $(document).ready(function(){
     $("#blogin").click(function(){
-        $("#lal").toggle();
+        $("#fLog").toggle();
     });
 });
