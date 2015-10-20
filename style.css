@@ -58,7 +58,7 @@
     font-size: 13px;
     margin-top: 18px;
     padding: 5px 20px 5px 20px;
-    color: #fff;
+    color: #ffffff;
     border-radius: 2px;
 		z-index: 999;
 }
@@ -69,8 +69,6 @@
   border-radius: 6px;
   font-family: arial;
 }
-
-
 
 @media screen and (max-width: 800px) {
     .owl-information {
@@ -96,7 +94,7 @@
 	font-size: 26px;
 	margin-left: 110px;
 	width: 197px;
-	font-family: formFont;
+	font-family: accountFont;
 }
 
 .owl-information{
@@ -200,8 +198,6 @@
 	display: block;
 }
 
-
-
 #new-account{
 	background-color:#cf590a;
 	color:#ffffff;
@@ -219,7 +215,6 @@
 	color:#ffffff;
   margin-left:35px;
 }
-
 
 .registration>input{
 	height: 36px;
@@ -247,17 +242,11 @@
 	margin-top:14px;
 
 }
- /*rForm.register-box{
-	position: absolute;
-	display:none;
-	top: 19px;
-	left: 259px;
-} */
 
 #fRegi.register-box{
   position: absolute;
   display: none;
-  left:249px;
+  left:250px;
   top:17px;
   text-align: center;
   padding-left: 21px;
@@ -271,17 +260,6 @@
   top: 17px;
 
 }
-
-/*#rForm.register-box{
-  padding-right: 10px;
-}*/
-
-/*#fRegi.registration{
-	position:absolute;
-	top: 15px;
-	left: 244px;
-  display: none;
-} */
 
 .login-box{
 	display:none;
@@ -303,23 +281,7 @@
 .form-signup{
 	margin-top: 10px;
 	margin-left:10px;
-/*	padding-right: 31px;
-    padding-left: 30px; */
 }
-/*
-form-signup input{
-	height:30px;
-	border-radius: 5px;
-} */
-
-/*#form3.form-signup{
-  margin-top: 10px;
-  width: 308px;
-  height: 30px;
-  font-family: formFont;
-  border-radius: 5px;
-}*/
-/*.last-name{margin-left:4px;} */
 
 .form3{
   margin-top: 10px;
@@ -362,8 +324,6 @@ form-signup input{
 	background-color: #2595b7;
 	position:absolute;
   margin-right: 59px;
-/*	left:417px;
-	top:-189px; */
 }
 .butlog{
 	background-color: #cd5311;
@@ -373,14 +333,11 @@ form-signup input{
 	width: 75px;
 	margin-left:12px;
   font-family: arial bold;
-
 }
 
 #passwordInput{
   width: 157px;
   height: 32px;
-
-  /*margin-left: 6px; */
 }
 
 #userName{
@@ -394,7 +351,6 @@ form-signup input{
 	border-radius: 5px;
 }
 
-
 .own-button{
 	margin-left:10px;
 	background-color:#9b9a9a;
@@ -404,15 +360,13 @@ form-signup input{
 	height:30px;
 }
 .own-account{
-	margin-top:3px;
 	text-align:  center;
 	font-family: loginFont;
   margin-left:51px;
 }
 .signup{
 	display: inline-block;
-    margin-left:15px;
-	/*text-align: center; */
+  margin-left:15px;
   margin-top:19px;
 }
 .long-text{
@@ -460,7 +414,8 @@ form-signup input{
 }
 
 .worning{
-  margin-top:27px;
+  margin-top:25px;
+  margin-bottom: 10px;
 }
 #arrowIcon{
   margin-left:55px;
