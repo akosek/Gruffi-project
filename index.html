@@ -46,23 +46,35 @@
 				<div class="row">
 							<div class="col-md-4 register-box" id="fRegi">																																					<!--Registration-->
 								<form name="rForm" tag="Register-form" class="registration">
-									<input class="inline-input finput" type="firstname" placeholder="FIRST NAME" name="firstrname" />
-									<input class="inline-input finput" type="lastrname" placeholder="LAST NAME" name="lastname" />
-									<input class="form2" type="email" placeholder="E-MAIL ADRESS" autofocus />
-									<input class="form2" type="username" placeholder="USERNAME" autofocus />
-									<button id="create" type="submit">CREATE ACCOUNT <i class="fa fa-chevron-circle-right"></i></button>
+									<div class="col-md-12">
+										<input class="inline-input finput" id="fname" type="firstname" placeholder="FIRST NAME" name="firstrname" />
+										<input class="inline-input finput" id="lname" type="lastrname" placeholder="LAST NAME" name="lastname" />
+									</div>
+									<div class="col-md-12">
+										<input class="form2" type="email" placeholder="E-MAIL ADRESS" autofocus />
+										<input class="form2" type="username" placeholder="USERNAME" autofocus />
+										<button id="create" type="submit">Create Account <i class="fa fa-chevron-circle-right" id="arrowIcon"></i></button>
+									</div>
 								</form>
 							</div>																																																							<!--Login-->
 					<div class="col-md-4 login-box" id="fLog">
-					<form name="lForm" tag="Register-form" id="loginForm" class="registration">
-						<div class="col-md-12 signup">
-							<button type="button" id="lin-button" class="libutton btn btn-primary"><i class="fa fa-linkedin-square icon"></i> SignUp with LinkedIn </button>
-							<button type="button" id="fac-button" class="fabutton btn btn-primary"><i class="fa fa-facebook-official icon"></i> SignUp with Facebook </button>
+						<form name="lForm" tag="Register-form" id="loginForm" class="registration">
+							<div class="col-md-12 signup">
+								<button type="button" id="lin-button" class="libutton btn btn-primary"><i class="fa fa-linkedin-square icon"></i> SignUp with LinkedIn </button>
+								<button type="button" id="fac-button" class="fabutton btn btn-primary"><i class="fa fa-facebook-official icon"></i> SignUp with Facebook </button>
+							</div>
+						<div class="col-md-12 signup2">
+							<input class="logput" id="userName" type="username" placeholder="USERNAME" autofocus />
+								<div class="inline-input">
+									<input class="inline-input logput" id="passwordInput" type="password" placeholder="PASSWORD" />
+									<button class="inline-input butlog" type="submit">Login</button>
+								</div>
 						</div>
-						<input class="form2 logput" id="userName" type="username" placeholder="USERNAME" autofocus />
-						<input class="inline-input logput" id="passwordInput" type="password" placeholder="PASSWORD" name="lastname" />
-						<button class="inline-input butlog" type="submit">Login</button>
 					</form>
+					<div class="col-md-12 keep-logged">
+						<input type="checkbox" name="nazwa" value="0" />
+						<label class="keep-text">Keep me logged in<span id="space">/</span> </label> <a href="" id="forgot-pass">Forgot password?</a>
+					</div>
 			</div>
 				</div>
 		</div>
@@ -79,21 +91,25 @@
 		<div class="col-md-6 more">
 			<div class="row form-inputs">
 				<div class="col-md-12 sign-up">
-					<button type="button" id="lin-button" class="libutton btn btn-primary"><i class="fa fa-linkedin-square icon"></i> SignUp with LinkedIn </button>
-					<button type="button" id="fac-button" class="fabutton btn btn-primary"><i class="fa fa-facebook-official icon"></i> SignUp with Facebook </button>
+					<button type="button" id="lin-button2" class="libutton btn btn-primary"><i class="fa fa-linkedin-square icon"></i> SignUp with LinkedIn </button>
+					<button type="button" id="fac-button2" class="fabutton btn btn-primary"><i class="fa fa-facebook-official icon"></i> SignUp with Facebook </button>
 				</div>
 				<div class="col-md-12">
 					<p class="text-center or">or</p>
 				</div>
 			<div class="col-md-12 form-signup">
-					<input  class="inline-input" type="username" placeholder="FIRST NAME" name="firstrname" />
-					<input class="inline-input last-name" type="username" placeholder="LAST NAME" name="lastname" />
-					<input class="form2" type="email" placeholder="E-MAIL ADRESS" autofocus />
-					<input class="form2" type="password" placeholder="PASSWORD" autofocus />
-				<div class="col-md-12">
-					<p>By creating an account you agree to our <a style="color:#afcecb; font-family:arial">terms & conditions</a></p>
+				<div class="col-md-12 inline-input">
+					<input class="first-name" type="username" placeholder="FIRST NAME" name="firstrname" />
+					<input class="last-name" type="username" placeholder="LAST NAME" name="lastname" />
 				</div>
-					<button id="new-account" type="submit">Create Account  <i id="accountIcon" class="fa fa-chevron-circle-right"></i></button>
+				<div class="col-md-12">
+					<input class="form3" type="email" placeholder="E-MAIL ADRESS" autofocus />
+					<input class="form3" type="password" placeholder="PASSWORD" autofocus />
+				</div>
+				<div class="col-md-12 worning">
+					<p>By creating an account you agree to our <a style="color:#afcecb; font-family:arial; text-decoration:none">terms & conditions</a></p>
+				</div>
+					<button id="new-account" type="submit">Create Account<i id="accountIcon" class="fa fa-chevron-circle-right"></i></button>
 			</div>
 			<div class="col-md-12 own-account">
 				<p class="inline-input">Own an account?</p>
