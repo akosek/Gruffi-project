@@ -16,6 +16,10 @@ body{
   	background-image:url("assets/background.png");
 }
 
+*:focus {
+outline: 0;
+}
+
 .container-fluid.main-container{
 	background-repeat: no-repeat;
 	padding:0px;
@@ -130,10 +134,16 @@ body{
 	color:#cfcece;
 }
 
+.button{
+  border:none;
+  text-align: center;
+}
+
 #fac-button.fabutton, #lin-button.libutton{
 		color:#fafafa;
 		font-family: accountFont;
 		font-size: 15,67px;
+    border:none;
 }
 
 #lin-button.libutton{
@@ -211,6 +221,9 @@ body{
 	border-radius: 5px;
   margin-bottom: 36px;
   text-align: center;
+  box-shadow:1px 1px 5px #888888;
+  text-shadow: 0 2px 2 rgba(0,0,0,0.4);
+   border: 2px solid #ec8924;
 }
 
 #accountIcon{
@@ -224,6 +237,8 @@ body{
 	margin-bottom:11px;
 }
 
+
+
 #create{
 	width: 248px;
 	height: 32px;
@@ -234,6 +249,7 @@ body{
   border-radius:5px;
   font-family: accountFont;
   text-align: center;
+  box-shadow:1px 1px 5px #888888;
 }
 
 #bregister{
@@ -338,6 +354,7 @@ body{
 	width: 75px;
 	margin-left:12px;
   font-family: arial bold;
+
 }
 
 #passwordInput{
@@ -363,6 +380,8 @@ body{
 	border-radius: 5px;
 	width:74px;
 	height:30px;
+  box-shadow:1px 1px 5px #888888;
+  text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
 }
 .own-account{
 	text-align:  center;
